@@ -164,6 +164,10 @@ Measured on an UNO Q, 10,000 iterations per app (100-call warm-up excluded):
 batch (23.6 s total ÷ 10,000), not as individual round trips — there's nothing to
 distribute per call without waiting on a reply that doesn't exist.
 
+An interactive chart with the same numbers (headline avg-per-op comparison, plus the
+`Bridge.call` latency spread) is in
+[`bridge-call-vs-notify-chart.html`](bridge-call-vs-notify-chart.html) — open it in a
+browser, or take a screenshot for your Project Hub write-up.
 
 ## Takeaways
 
