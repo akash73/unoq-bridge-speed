@@ -1,0 +1,5 @@
+name: "bridge roundtrip - Vibration Modulino"
+description: Measures how fast real Modulino Movement accelerometer samples can be pulled from the MCU to the MPU via Bridge.call.
+ports: []
+bricks: []
+icon: 😀
